@@ -122,7 +122,7 @@
       "submit_select": "Select search query when submitting search",
       "simple_search_list": "List view in simple search",
       "auto_select": "Disable automatic selection of search term when submitting",
-      "disable_search_hotkey": "Disable search hotkey (/)",
+      "disable_search_hotkey": "Disable search hotkey (ctrl + 7)",
       "locale": {
         "title": "Locale" ,
         "description": "Default language settings for the language of headings, buttons, messages, and menus. The settings will not affect examples and definitions: the Bokmål dictionary will remain in Bokmål and the Nynorsk dictionary stays Nynorsk "
