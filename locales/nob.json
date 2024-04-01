@@ -55,6 +55,8 @@
         "bm": "Bokmålsordboka",
         "nn_dativ": "Nynorskordboka",
         "bm_dativ": "Bokmålsordboka",
+        "nn_genitiv": "Nynorskordboka",
+        "bm_genitiv": "Bokmålsordboka",
         "bm,nn": "ordbøkene"
     },
     "dicts_short": {

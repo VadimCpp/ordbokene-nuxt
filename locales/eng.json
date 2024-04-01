@@ -54,6 +54,8 @@
       "bm": "the Bokmål dictionary",
       "nn_dativ": "the Nynorsk dictionary",
       "bm_dativ": "the Bokmål dictionary",
+      "nn_genitiv": "the Nynorsk dictionary",
+      "bm_genitiv": "the Bokmål dictionary",
       "bm,nn": "the dictionaries"
   },
   "dicts_short": {

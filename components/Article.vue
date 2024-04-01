@@ -35,7 +35,7 @@
 </div>
 <div v-if="!list || expanded" :id="`${dict}_${article_id}_body`" :lang="dictLang[dict]" class="flex flex-col grow" :class="{'expanded-article article': list}">
       <div>
-        <h2 v-if="welcome" :lang="scoped_lang" :class="{'!text-base': $i18n.locale == 'ukr'}" class="dict-label">{{$t('monthly', {dict: $t('dicts_inline.' + dict)}, { locale: scoped_locale})}}</h2>
+        <h2 v-if="welcome" :lang="scoped_lang" :class="{'!text-base': $i18n.locale == 'ukr'}" class="dict-label">{{$t('monthly', {dict: $t('dicts_inline.' + `${dict}_genitiv`)}, { locale: scoped_locale})}}</h2>
         <h2 v-else-if="single" class="dict-label">{{{"bm":"Bokmålsordboka", "nn":"Nynorskordboka"}[dict]}}</h2>
         <div class="px-4 pt-4 pb-2" :class="{'pb-3' : welcome,  '!py-0 !px-3': list}">
 
