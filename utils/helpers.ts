@@ -5,7 +5,7 @@ export const localeConfig = [
   description: 'Vis overskrifter, knappar, menyar og informasjonssider på nynorsk'},
   {lang: 'nb', locale: 'nob', label: 'Bokmål', 
   description: 'Vis overskrifter, knapper, menyer og informasjonssider på bokmål'},
-  {lang: 'uk', locale: 'ukr', label: 'Українська (ukrainsk)', button: 'Мова', 
+  {lang: 'uk', locale: 'ukr', label: 'Українська', button: 'Мова', 
   description: 'Виберіть українську як мову відображення заголовків, кнопок і меню'},
 ]
 
